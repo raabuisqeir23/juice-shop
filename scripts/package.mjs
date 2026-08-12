@@ -14,6 +14,10 @@ import { glob } from 'glob'
 
 // archiver must be globally installed — Node.js does not search npm's global node_modules by default
 // not great, but the alternative is to include archiver as a prod dependency as all the dev dependency are cleared by npm prune before packaging
+
+//this is an added comment to test
+
+
 function loadArchiver () {
   const require = createRequire(import.meta.url)
   try {
